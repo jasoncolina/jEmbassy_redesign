@@ -1,0 +1,233 @@
+:root{
+    --smoky-black-: #0F0F0F; /* Smoky Black */
+    --snow-: #FBFBFB; /* Snow */
+    --rusty-red-: #D62839; /* Rusty Red */
+    --rust-red-light-:#E88993;
+    --honeydew-: #EFF9F0; /* Honeydew */
+    --yankees-blue-: #102542; /* Yankees Blue */
+    --electric-blue-: #77E3FF;
+}
+
+/* ================================================================================== */
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body,
+button,
+input,
+select,
+textarea{
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: white;
+    color: var(--smoky-black-);
+    margin:0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 0.25em 1em;
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+a:visited{
+    color:var(--smoky-black-);
+}
+
+.container{
+    overflow:hidden;
+    margin:0;
+    text-align: center;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section h1{
+    background-color:var(--rusty-red-);
+    color: var(--snow-);
+    margin: 1em auto;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    /* margin:0; */
+}
+
+/* ================================================================================== */
+.masthead{
+    background-color:var(--yankees-blue-);
+    background-image: url("/assets/images/000146824.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding: 1em;
+
+    display: none;
+}
+
+.masthead h1{
+    color:var(--snow-);
+}
+
+/* ================================================================================== */
+.navbar{
+    padding: 1em;
+    background-color: var(--rusty-red-);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.brand{
+    width:50px;
+    margin:0;
+}
+
+.brand img{
+    border-radius:3px;
+}
+
+.nav-collapse{
+    display:none;
+}
+
+.navbar ul{
+    padding:0;
+    margin: 0;
+}
+
+.nav-item{
+    list-style:none;
+    background-color:var(--yankees-blue-);
+    padding: 0.5em 1em 0.5em 1em;
+    text-align:left;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:var(--snow-);
+}
+
+.fa-bars{
+    color:var(--snow-);
+    font-size:2.5em;
+}
+
+/* ================================================================================== */
+.eventCard{
+    padding:0.5em 1em 1em 1em;
+    margin: 2em 1em;
+    border: 3px solid var(--rust-red-light-);
+    border-radius: 5px;
+}
+
+.eventTitle, .eventDate, .eventLocation, .eventLink{
+    margin:0.5em;
+}
+
+.eventTitle{
+    
+}
+
+.eventCard hr{
+    border: 2px solid var(--rusty-red-);
+    border-radius: 3px;
+    width: 4em;
+}
+
+.eventDate{
+
+}
+
+.eventLocation{
+
+}
+/* ================================================================================== */
+.announcements{
+    
+}
+
+.announcementItem{
+    text-align:left;
+    padding-left: 1em;
+}
+
+.announcementItem:hover{
+    background-color:var(--honeydew-);
+}
+
+.announcementDate{
+    margin-bottom: 0.3em;
+}
+
+.announcements .fa-chevron-right{
+    font-size:1em;
+}
+
+.announcementLink{
+    
+}
+/* ================================================================================== */
+.ambassador img{
+    margin:2em auto;
+    object-fit:cover;
+    object-position: 0 20%;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border: 3px solid var(--rusty-red-);
+    padding: 0.2em;
+}
+
+.ambassadorCard{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+}
+
+.ambassadorLinks{
+    display:grid;
+    
+}
+/* ================================================================================== */
+
+/* ================================================================================== */
+
+/* ================================================================================== */
+
+/* ================================================================================== */
+
+/* ================================================================================== */
+
+/* ================================================================================== */
+.footer{
+    padding: 1em;
+    background-color:var(--rusty-red-);
+    color:white;
+}
+
+.footer a{
+    color:white;
+}
+/* ================================================================================== */
