@@ -1,7 +1,8 @@
 var elem = document.querySelector('.carousel');
 
 var flkty = new Flickity( elem, {
-  freeScroll:true,
-  contain: true,
-  pageDots: false
+  pageDots: false,
+  prevNextButtons: false,
+  wrapAround: true,
+  autoPlay:5000
 });
