@@ -3,58 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Font family: Noto Sans JP -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,400,700&display=swap&subset=japanese" rel="stylesheet">
+
+    <!-- Flickity stylesheet -->
+    <link rel="stylesheet" href="assets/css/flickity.min.css" media="screen">
+
+    <!-- jQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Icon Library -->
     <script src="https://kit.fontawesome.com/e0017c8936.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="assets/js/script.js"></script>
+    
     <title>Embassy of Japan in Canada</title>
 </head>
 <body>
+
+  <nav class="navbar">
+
+    <a href="" class="brand">
+      <img src="assets/images/flag.svg" alt="">
+    </a>
+
+    <div class="nav-collapse">
+      <ul>
+        <li class="nav-item"><a href="#">
+          Home
+        </a></li>
+        <li class="nav-item"><a href="#">
+          About Us
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Visa and Consular Section
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Information and Culture Centre
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Education and Scholarships
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Bilateral Relations
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Foreign Policy
+        </a></li>
+        <li class="nav-item"><a href="#">
+          Links
+        </a></li>
+      </ul>
+    </div>
+
+    <a href="#" class="toggle"><i class="fas fa-bars"></i></a>
+
+  </nav>
+
+  
   <div class="container">
     <header class="masthead">
       <h1>Embassy of Japan in Canada</h1>
     </header>
-    <nav class="navbar">
-
-      <a href="" class="brand">
-        <img src="assets/images/flag.svg" alt="">
-      </a>
-
-      <div class="nav-collapse">
-        <ul>
-          <li class="nav-item"><a href="#">
-            Home
-          </a></li>
-          <li class="nav-item"><a href="#">
-            About Us
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Visa and Consular Section
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Information and Culture Centre
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Education and Scholarships
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Bilateral Relations
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Foreign Policy
-          </a></li>
-          <li class="nav-item"><a href="#">
-            Links
-          </a></li>
-        </ul>
-      </div>
-
-      <a href="#" class="toggle"><i class="fas fa-bars"></i></a>
-
-    </nav>
+    
     <section class="eventPhotos">
       <h1>Event Photos</h1>
+      <div class="carousel">
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic1.jpg" alt="">
+          <a href="#"><p>Kawaii Night: Concert & Film</p></a>
+        </div>
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic2.jpg" alt="">
+          <a href="#"><p>2020 New Year Reception</p></a>
+        </div>
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic3.jpg" alt="">
+          <a href="#"><p>2020 New Year Message from Ambassador Kawamura</p></a>
+        </div>
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic4.jpg" alt="">
+          <a href="#"><p>Welcome Greeting from Ambassador Kawamura</p></a>
+        </div>
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic5.jpg" alt="">
+          <a href="#"><p>Tomono/Go Together - An evening of performance with Ottawa's japanese Community</p></a>
+        </div>
+
+        <div class="carousel-cell">
+          <img src="assets/images/pic6.jpg" alt="">
+          <a href="#"><p>Farewell reception for Ambassador Ishikane and Mrs. Ishikane</p></a>
+        </div>
+        
+      </div>
     </section>
+
     <section class="events">
       <!-- Changed from Embassy-Related Events to Events -->
       <h1>Events</h1>
@@ -75,7 +125,7 @@
       </div>
     </section>
     <section class="announcements">
-      <h1>Government Information/Announcements</h1>
+      <h1>Announcements</h1>
       <div class="announcementItem">
         <h4 class="announcementDate">February 21, 2020</h4>
         <a class="announcementLink" href="#"><i class="fas fa-chevron-right"></i> Government Initiatives Related to Coronavirus Disease (COVID-19)</a>
@@ -131,6 +181,9 @@
       <p>Copyright © 2020 Jason Colina</p>
     </footer>
   </div>
+
+  <script src="assets/js/flickity.pkgd.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
 
